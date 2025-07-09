@@ -4,24 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rayo Luxe Event – Lagos</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
-    body { margin:0; font-family:sans-serif; color:#333; }
-    header { padding:20px; text-align:center; background:#222; color:#fff; }
-    nav a { margin:0 15px; color:#fff; text-decoration:none; }
-    section { padding:40px 20px; max-width:1000px; margin:auto; }
-    .hero video { width:100%; height:auto; display:block; margin-bottom:20px; }
-    .services, .contact { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
-    .service { flex:1 1 200px; padding:20px; background:#f9f9f9; border-radius:8px; }
-    .service h3 { margin-top:0; }
-    .gallery img { width:100%; height:auto; border-radius:8px; }
-    footer { text-align:center; padding:20px; background:#eee; }
+    body { margin:0; font-family:'Segoe UI', sans-serif; background:#fffaf9; color:#3d2b1f; }
+    header { padding:30px; text-align:center; background:linear-gradient(to right, #edc7b7, #eee2dc); color:#222; }
+    nav a { margin:0 10px; color:#6b4226; text-decoration:none; font-weight:bold; }
+    section { padding:50px 20px; max-width:1000px; margin:auto; }
+    .hero video { width:100%; height:auto; border-radius:10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    h2 { border-left:6px solid #e89f71; padding-left:15px; color:#6b4226; }
+    .services, .contact, .socials { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .service, .contact-item { flex:1 1 220px; padding:20px; background:#fef4f0; border-radius:10px; }
+    .service h3, .contact-item h3 { margin-top:0; color:#a0522d; }
+    .gallery img, .gallery video { width:100%; max-height:300px; object-fit:cover; border-radius:10px; margin-bottom:20px; }
+    footer { text-align:center; padding:20px; background:#edc7b7; color:#5c4033; }
+    .socials a { font-size:24px; margin:0 10px; color:#6b4226; }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:20px; }
   </style>
 </head>
 <body>
 
   <header>
     <h1>Rayo Luxe Event</h1>
-    <p>Premier Event Planning & Styling • Lagos, Nigeria</p>
+    <p>Creating Unforgettable Moments • Lagos, Nigeria</p>
     <nav>
       <a href="#about">About</a>
       <a href="#services">Services</a>
@@ -30,70 +34,71 @@
     </nav>
   </header>
 
-  <section class="hero" id="home">
-    <video controls>
-      <source src="https://drive.google.com/uc?export=download&id=1MHO4pkymca91Oy1zezuHT2PJVfMSFrcA"
-        type="video/mp4">Your browser does not support video.
+  <section class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="https://i.imgur.com/AL4RIxN.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
-    <p>Welcome to Rayo Luxe Event – where creativity, elegance, and impeccable planning come to life.</p>
   </section>
 
   <section id="about">
-    <h2>About Us</h2>
-    <p>Rayo Luxe Event is a luxury event planning and styling company based in Lagos. We specialize in creating unforgettable weddings, corporate functions, and bespoke private events with unmatched attention to detail and unrivaled elegance.</p>
+    <h2>About Rayo Luxe</h2>
+    <p>Rayo Luxe Event is a creative, luxury event styling and surprise company based in Lagos, Nigeria. We specialize in unforgettable setups—birthdays, proposals, bridal showers, and kids’ parties that wow your guests and warm your heart. Elegance, surprise, and satisfaction are our signature!</p>
   </section>
 
   <section id="services">
     <h2>Our Services</h2>
     <div class="services">
-      <div class="service">
-        <h3>Wedding Planning</h3>
-        <p>From traditional ceremonies to modern soirees, we handle every detail to create your dream day.</p>
-      </div>
-      <div class="service">
-        <h3>Corporate Events</h3>
-        <p>Professional events with flair: product launches, galas, conferences, and more.</p>
-      </div>
-      <div class="service">
-        <h3>Styling & Decor</h3>
-        <p>Elegant décor, lighting, floral designs, and themes customized to your vision.</p>
-      </div>
-      <div class="service">
-        <h3>Venue Management</h3>
-        <p>We coordinate logistics, vendors, and on-site operations for seamless execution.</p>
-      </div>
+      <div class="service"><h3>Intimate Birthday Setup</h3><p>Curated birthday scenes for your loved one in style.</p></div>
+      <div class="service"><h3>Birthday Surprises</h3><p>Surprise deliveries and planned moments of joy.</p></div>
+      <div class="service"><h3>Kiddies Birthday Setup</h3><p>Fun, colorful, and safe party magic for kids.</p></div>
+      <div class="service"><h3>Proposal Setup</h3><p>Say “Will you marry me?” in an unforgettable way.</p></div>
+      <div class="service"><h3>Bridal Shower</h3><p>Celebrate the bride-to-be in themed elegance.</p></div>
     </div>
   </section>
 
   <section id="gallery">
     <h2>Gallery</h2>
     <div class="gallery">
-      <img src="Fotus.png" alt="Event tableau"/>
-      <img src="Fotus.png" alt="Stylish event setup"/>
+      <img src="https://i.imgur.com/EZEXi2h.jpeg" alt="Gallery 1">
+      <img src="https://i.imgur.com/RmG0pNk.png" alt="Gallery 2">
+      <img src="https://i.imgur.com/5RjDioF.png" alt="Gallery 3">
+      <img src="https://i.imgur.com/ziAi88w.png" alt="Gallery 4">
+      <video controls src="https://i.imgur.com/nqs8NUT.mp4"></video>
+      <video controls src="https://i.imgur.com/6jOz2FC.mp4"></video>
+      <video controls src="https://i.imgur.com/EdGEOQP.mp4"></video>
+      <video controls src="https://i.imgur.com/h3ncCZd.mp4"></video>
+      <video controls src="https://i.imgur.com/Mc7UjCj.mp4"></video>
+      <video controls src="https://i.imgur.com/mN7zBnD.mp4"></video>
+      <video controls src="https://i.imgur.com/hmaMYnu.mp4"></video>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
     <div class="contact">
-      <div class="service">
+      <div class="contact-item">
+        <h3>WhatsApp</h3>
+        <p><a href="https://wa.me/message/JGQLA3IKDJCNG1" target="_blank">Chat with us</a></p>
+      </div>
+      <div class="contact-item">
+        <h3>Phone</h3>
+        <p>+2347019032172</p>
+      </div>
+      <div class="contact-item">
         <h3>Location</h3>
         <p>Lagos, Nigeria</p>
       </div>
-      <div class="service">
-        <h3>Email</h3>
-        <p>hello@rayoluxe.com</p>
-      </div>
-      <div class="service">
-        <h3>Phone</h3>
-        <p>+234 800 123 4567</p>
-      </div>
     </div>
-    <p>Follow us on social media for inspiration and updates!</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/rayo_luxe_event?igsh=aXpuMmRnNTN4cjZj" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@rayo_luxe_event?_t=ZT-8xsTzUkhIgI&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.facebook.com/share/1AhdzngMAD/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
   </section>
 
   <footer>
-    &copy; 2025 Rayo Luxe Event – Lagos • Designed for elegant celebrations
+    &copy; 2025 Rayo Luxe Event • Designed with elegance in Lagos
   </footer>
 </body>
 </html>
