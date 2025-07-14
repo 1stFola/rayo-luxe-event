@@ -7,23 +7,25 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     body { margin:0; font-family:'Segoe UI', sans-serif; background:#fffaf9; color:#3d2b1f; }
-    header { padding:30px; text-align:center; background:linear-gradient(to right, #edc7b7, #eee2dc); color:#222; }
+    header { padding:30px 20px; text-align:center; background:linear-gradient(to right, #edc7b7, #eee2dc); color:#222; }
+    header img { max-height:80px; border-radius:12px; margin-bottom:10px; }
     nav a { margin:0 10px; color:#6b4226; text-decoration:none; font-weight:bold; }
     section { padding:50px 20px; max-width:1000px; margin:auto; }
     .hero video { width:100%; height:auto; border-radius:10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
     h2 { border-left:6px solid #e89f71; padding-left:15px; color:#6b4226; }
     .services, .contact, .socials { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
-    .service, .contact-item { flex:1 1 220px; padding:20px; background:#fef4f0; border-radius:10px; }
+    .service, .contact-item, .socials-container { flex:1 1 220px; padding:20px; background:#fef4f0; border-radius:10px; }
     .service h3, .contact-item h3 { margin-top:0; color:#a0522d; }
     .gallery img, .gallery video { width:100%; max-height:300px; object-fit:cover; border-radius:10px; margin-bottom:20px; }
     footer { text-align:center; padding:20px; background:#edc7b7; color:#5c4033; }
     .socials a { font-size:24px; margin:0 10px; color:#6b4226; }
     .gallery { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:20px; }
+    .whatsapp-link i { color:green; margin-right:8px; }
   </style>
 </head>
 <body>
-
   <header>
+    <img src="https://i.imgur.com/9RbVI04.jpeg" alt="Rayo Luxe Logo" />
     <h1>Rayo Luxe Event</h1>
     <p>Creating Unforgettable Moments • Lagos, Nigeria</p>
     <nav>
@@ -54,6 +56,10 @@
       <div class="service"><h3>Kiddies Birthday Setup</h3><p>Fun, colorful, and safe party magic for kids.</p></div>
       <div class="service"><h3>Proposal Setup</h3><p>Say “Will you marry me?” in an unforgettable way.</p></div>
       <div class="service"><h3>Bridal Shower</h3><p>Celebrate the bride-to-be in themed elegance.</p></div>
+      <div class="service"><h3>Wedding Planning</h3><p>From traditional to elegant weddings, full planning included.</p></div>
+      <div class="service"><h3>Corporate Events</h3><p>Professional events, launches, and ceremonies with style.</p></div>
+      <div class="service"><h3>Styling & Decor</h3><p>Elegant décor, ambiance, and floral styling.</p></div>
+      <div class="service"><h3>Venue Management</h3><p>Logistics, staffing, and execution for smooth events.</p></div>
     </div>
   </section>
 
@@ -79,7 +85,7 @@
     <div class="contact">
       <div class="contact-item">
         <h3>WhatsApp</h3>
-        <p><a href="https://wa.me/message/JGQLA3IKDJCNG1" target="_blank">Chat with us</a></p>
+        <p><a class="whatsapp-link" href="https://wa.me/message/JGQLA3IKDJCNG1" target="_blank"><i class="fab fa-whatsapp"></i>Chat with us</a></p>
       </div>
       <div class="contact-item">
         <h3>Phone</h3>
@@ -89,11 +95,14 @@
         <h3>Location</h3>
         <p>Lagos, Nigeria</p>
       </div>
-    </div>
-    <div class="socials">
-      <a href="https://www.instagram.com/rayo_luxe_event?igsh=aXpuMmRnNTN4cjZj" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.tiktok.com/@rayo_luxe_event?_t=ZT-8xsTzUkhIgI&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-      <a href="https://www.facebook.com/share/1AhdzngMAD/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+      <div class="socials-container">
+        <h3>Socials</h3>
+        <div class="socials">
+          <a href="https://www.instagram.com/rayo_luxe_event?igsh=aXpuMmRnNTN4cjZj" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@rayo_luxe_event?_t=ZT-8xsTzUkhIgI&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/share/1AhdzngMAD/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
     </div>
   </section>
 
